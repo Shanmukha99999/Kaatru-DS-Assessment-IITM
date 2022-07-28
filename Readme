@@ -1,0 +1,31 @@
+Goal:
+Develop a model to find the variables that are significant in the demand for shared bikes with the available independent variables and report appropriate metrics of your model evaluation.
+
+Dataset is given as "day - day.csv".
+which is attached to the repo.
+
+
+
+Prerequisites  ---
+
+    #imporitng the required packages
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    import statsmodels.api as sm
+    from statsmodels.stats.outliers_influence import variance_inflation_factor
+    import warnings
+    warnings.filterwarnings('ignore')
+
+Contents:
+    Importing Libraries
+    Reading Dataset and Understanding Data
+    Cleaning Data
+    EDA
+    Data Preparation for Linear Regression
+    Model Building
+    Model Evaluation
+    Conclusion
